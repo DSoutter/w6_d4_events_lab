@@ -13,9 +13,32 @@ form {
 }
 ul {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 ul > * {
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  background-color: hotpink;
 }
+
+
+/* .views-flex{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  border: 10px;
+}
+
+.views-flex >* {
+  background-color: rgba(161, 204, 165, 0.9) ;
+  border-radius: 15px;
+  width: 200px;
+  margin: 3%;
+  padding: 15px;
+  text-align: center;
+  color: rgba(119, 42, 6, 0.80);
+} */

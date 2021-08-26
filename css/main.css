@@ -1,3 +1,21 @@
 body {
   font-family: Palatino;
 }
+
+form {
+  display: flex;
+  justify-content: center;
+
+}
+.form-item {
+  width: 100%;
+  margin-bottom: 1em ;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+ul > * {
+  justify-content: space-between;
+}
